@@ -29,7 +29,7 @@ function validateForm() {
     //USERNAME
     if(usernameInput.value.trim()==''){
         setError(usernameInput, 'Điền đầy đủ họ và tên vào cái :))');
-    }else if(usernameInput.value.trim()=='Nguyễn Phương Uyên' || usernameInput.value.trim()=='nguyễn phương uyên'){
+    }else if(usernameInput.value.trim()=='Đặng Ngọc Thư' || usernameInput.value.trim()=='đặng ngọc thư'){
         setSuccess(usernameInput);
     }else {
         setError(usernameInput, 'Điền chuẩn đi làm ơnnnn');
